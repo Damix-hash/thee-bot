@@ -1,0 +1,77 @@
+return (function(G, P, T, L, e, H, q, D, K, r, I, s, A, M, i, V, R)
+	I, A, r, K, V, R, s, D, M, i = function(G)
+			R[G] = R[G] - 1;
+			if 0 == R[G] then
+				R[G], i[G] = nil, nil;
+			end;
+		end, 0, function(G)
+			for D = 1, #G, 1 do
+				R[G[D]] = 1 + R[G[D]];
+			end;
+			if T then
+				local D = T(true);
+				local P = e(D);
+				P.__index, P.__gc, P.__len = G, K, function()
+						return 1616548;
+					end;
+				return D;
+			else
+				return L({}, { __gc = K, __index = G, __len = function()
+						return 1616548;
+					end });
+			end;
+		end, function(G)
+			local D, P = 1, G[1];
+			while P do
+				R[P], D = R[P] - 1, D + 1;
+				if R[P] == 0 then
+					R[P], i[P] = nil, nil;
+				end;
+				P = G[D];
+			end;
+		end, function(G, P)
+			local T = r(P);
+			local L = function(...)
+					return D(G, { ... }, P, T);
+				end;
+			return L;
+		end, {}, function()
+			A = 1 + A;
+			R[A] = 1;
+			return A;
+		end, function(D, T, L, e)
+			local q, i, R;
+			while D do
+				if D < 13592924 then
+					D = M(16167881, {});
+					i = T;
+					R = D;
+					q = {};
+					R = nil;
+					D = G.sp29vnH28eRj;
+				else
+					R = T[2];
+					i = T[1];
+					D = i * R;
+					q = { D };
+					D = G.KbU2EfQO5K2jq;
+				end;
+			end;
+			D = #e;
+			return P(q);
+		end, function(G, P)
+			local T = r(P);
+			local L = function(L, e, H, q, i, R)
+					return D(G, {
+						L,
+						e,
+						H,
+						q,
+						i,
+						R,
+					}, P, T);
+				end;
+			return L;
+		end, {};
+	return (V(2965512, {}))(P(q));
+end)(getfenv and getfenv() or _ENV, unpack or table.unpack, newproxy, setmetatable, getmetatable, select, { ... });
